@@ -1,0 +1,147 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.medicine.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:6:5-79
+11-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:7:5-67
+12-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.CALL_PHONE" />
+13-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:8:5-69
+13-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:8:22-66
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:11:5-80
+14-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:11:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:12:5-81
+15-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:12:22-78
+16
+17    <application
+17-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:11:5-44:19
+18        android:name="com.medicine.app.AppController"
+18-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:12:9-38
+19        android:allowBackup="false"
+19-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:13:9-36
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\f71f8da7ba118f56b7a69563a8255a28\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:14:9-43
+23        android:label="@string/app_name"
+23-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:15:9-41
+24        android:requestLegacyExternalStorage="true"
+24-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:16:9-52
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:17:9-54
+26        android:supportsRtl="true"
+26-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:18:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:19:9-40
+29        <activity android:name="com.medicine.app.EditMedicine" />
+29-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:21:9-59
+29-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:21:19-47
+30        <activity android:name="com.medicine.app.MedDetail" />
+30-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:22:9-47
+30-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:22:19-44
+31        <activity android:name="com.medicine.app.AddMedicine" />
+31-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:23:9-49
+31-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:23:19-46
+32        <activity android:name="com.medicine.app.SellMeds" />
+32-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:24:9-46
+32-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:24:19-43
+33        <activity android:name="com.medicine.app.BuyMeds" />
+33-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:25:9-45
+33-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:25:19-42
+34        <activity android:name="com.medicine.app.AddExtraStock" />
+34-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:26:9-51
+34-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:26:19-48
+35        <activity
+35-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:27:9-29:66
+36            android:name="com.medicine.app.ExtraStockActivity"
+36-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:28:13-47
+37            android:theme="@style/Theme.AppCompat.NoActionBar" />
+37-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:29:13-63
+38        <activity
+38-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:30:9-32:66
+39            android:name="com.medicine.app.WebViewActivity"
+39-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:31:13-44
+40            android:theme="@style/Theme.AppCompat.NoActionBar" />
+40-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:32:13-63
+41        <activity android:name="com.medicine.app.DetailActivity" />
+41-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:33:9-52
+41-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:33:19-49
+42        <activity android:name="com.medicine.app.DashboardActivity" />
+42-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:34:9-55
+42-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:34:19-52
+43        <activity
+43-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:35:9-43:20
+44            android:name="com.medicine.app.SplashActivity"
+44-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:36:13-43
+45            android:theme="@style/Theme.AppCompat.NoActionBar" >
+45-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:37:13-63
+46            <intent-filter>
+46-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:38:13-42:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:39:17-69
+47-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:39:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:41:17-77
+49-->D:\KishoreKumar\Learning\Medicine\app\src\main\AndroidManifest.xml:41:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:15:9-18:68
+53            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+53-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:16:13-81
+54            android:screenOrientation="unspecified"
+54-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:17:13-52
+55            android:theme="@style/Theme.Transparent.ImagePicker" />
+55-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:18:13-65
+56        <activity
+56-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:19:9-22:72
+57            android:name="com.yalantis.ucrop.UCropActivity"
+57-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:20:13-60
+58            android:screenOrientation="portrait"
+58-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:21:13-49
+59            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+59-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:22:13-69
+60
+61        <provider
+61-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:24:9-32:20
+62            android:name="androidx.core.content.FileProvider"
+62-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:25:13-62
+63            android:authorities="com.medicine.app.provider"
+63-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:26:13-60
+64            android:exported="false"
+64-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:27:13-37
+65            android:grantUriPermissions="true" >
+65-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:28:13-47
+66            <meta-data
+66-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:29:13-31:71
+67                android:name="android.support.FILE_PROVIDER_PATHS"
+67-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:30:17-67
+68                android:resource="@xml/image_picker_provider_paths" />
+68-->[com.github.dhaval2404:imagepicker:1.6] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\57fb4fc80dd601aac17e765ed85bfa8b\imagepicker-1.6\AndroidManifest.xml:31:17-68
+69        </provider>
+70
+71        <service
+71-->[androidx.room:room-runtime:2.2.3] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\1f9f2ff51129869a2d8181b8b953d107\room-runtime-2.2.3\AndroidManifest.xml:25:9-27:40
+72            android:name="androidx.room.MultiInstanceInvalidationService"
+72-->[androidx.room:room-runtime:2.2.3] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\1f9f2ff51129869a2d8181b8b953d107\room-runtime-2.2.3\AndroidManifest.xml:26:13-74
+73            android:exported="false" />
+73-->[androidx.room:room-runtime:2.2.3] C:\Users\kishorekumar\.gradle\caches\transforms-2\files-2.1\1f9f2ff51129869a2d8181b8b953d107\room-runtime-2.2.3\AndroidManifest.xml:27:13-37
+74    </application>
+75
+76</manifest>
